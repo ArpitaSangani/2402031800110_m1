@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Data Types Output</h2>
+<p id="output"></p>
+
+<script>
+let age = 20;
+let height = 5.4;
+let isStudent = true;
+
+let name = "Arpita";
+
+let middleName = null;
+let address;
+
+let hobbies = ["coding", "reading", "design"];
+
+let person = {
+    name: name,
+    age: age,
+    height: height,
+    isStudent: isStudent,
+    hobbies: hobbies,
+    middleName: middleName,
+    address: address
+};
+
+// Display on webpage
+document.getElementById("output").innerHTML = 
+    "Name: " + person.name + "<br>" +
+    "Age: " + person.age + "<br>" +
+    "Height: " + person.height + "<br>" +
+    "Student: " + person.isStudent + "<br>" +
+    "Hobbies: " + person.hobbies + "<br>" +
+    "Middle Name: " + person.middleName + "<br>" +
+    "Address: " + person.address;
+
+</script>
+
+</body>
+</html>

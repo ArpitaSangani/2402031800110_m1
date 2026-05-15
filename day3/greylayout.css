@@ -1,0 +1,45 @@
+.container {
+  background-color: rgb(106, 103, 103);
+  width: 100%;
+  padding: 20px;
+  height: 20%;
+  border: 2px solid black;
+}
+
+header{
+    background-color: grey;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+#item1{
+    background-color: rgb(106, 103, 103);
+  width: 30%;
+  padding: 40px;
+  height: 20%;
+  border: 2px solid black;
+  
+}
+
+#item2{
+    background-color: rgb(106, 103, 103);
+  width: 30%;
+  padding: 40px;
+  height: 20%;
+  border: 2px solid black;
+}
+#item3{
+    background-color: rgb(106, 103, 103);
+  width: 30%;
+  padding: 40px;
+  height: 20%;
+  border: 2px solid black;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}

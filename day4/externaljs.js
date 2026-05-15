@@ -1,0 +1,13 @@
+document.write("<hr>");
+document.write("Hello World Wide Web");
+document.write("<hr>");
+var x = 5;
+var y = 6;
+var z = x+y;
+var p = x-y;
+var q = x*y;
+var r = x/y;
+document.getElementById("add").innerHTML = "value of z is "+z;
+document.getElementById("sub").innerHTML = "value of p is "+p;
+document.getElementById("multi").innerHTML = "value of q is "+q;
+document.getElementById("div").innerHTML = "value of r is "+r;
