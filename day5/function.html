@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function foo(p1) 
+{
+    if (typeof(p1) == "number")
+        return 0;    
+    else if (typeof(p1) == "string")
+        return "zero";
+    else
+        return "undefined";   // for cases like foo()
+}
+
+// Output
+document.write(foo(1) + "<br>");       
+document.write(foo("abc") + "<br>");       
+document.write(foo() + "<br>");        
+</script>
+
+</body>
+</html>
