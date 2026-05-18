@@ -14,7 +14,7 @@
 	function checkMail()
 	{
 		var a = document.getElementById("myText").value;
-		var pattern ="^[\\w-_\.]*[\\w-_\.]\@[\\w]\.+[\\w]+[\\w]$”;
+		var pattern ="^[\\w-_\.]*[\\w-_\.]\@[\\w]\.+[\\w]+[\\w]$";
 		var regex = new RegExp(pattern);
 		if(regex.test(a))
 		{
